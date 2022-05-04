@@ -44,6 +44,15 @@ No | Matches demand | Buffer capacity at end of week
 
 ----------------------------------------------------------------------------------------------------
 
+TODO:
+ 
+ Add a 4th mode for generation where it doesn't simply populate the first available conche with a
+ new mass, but it checks all conches and chooses the optimal conche for the top priority masses.
+ This will reduce the need for manual intervention and fine tuning of the generated plan but will in
+ no case make it as good as human can.
+ 
+----------------------------------------------------------------------------------------------------
+ 
 CHANGELOG:
 
 v.1.01 - 02.2022
