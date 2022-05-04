@@ -1,0 +1,18 @@
+#
+# The '#' symbol indicates a comment. These lines will not be read into memory.
+#
+# This file should contain information about the types, numbers and volumes of conches available on the line.
+# The count (n) and order in column "type" is important for the "masses_cfg.txt" file:
+#   - there you have two columns containing mass types and max storage capacities;
+#   - always start from 0 and increment each new type accordingly;
+#   - the following columns are n columns for refining times and n columns for conching times;
+#   - if you have defined two types of conches here, there MUST be two columns for refining times and two columns for conching times;
+#   - this order also matches the order in which the conches will be populated with masses when the program is executed.
+#
+#name	type	V
+#
+Model1	0	4000
+Model1	0	4000
+Model2	1	6000
+Model2	1	6000
+Model3	2	9000

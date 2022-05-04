@@ -1,0 +1,25 @@
+#
+# The '#' symbol indicates a comment. These lines will not be read into memory.
+#
+# This file should contain information about the types of masses being produced, max storage capacities
+# as well as refining times and conching times for each type of conche present on the line.
+#
+# The order of the refining and conching times is important and should reflect the order in which the conches are
+# described in the "conches_cfg.txt" file.
+#
+# There is a trick to manipulate or fine tune your production plan when operating in mode 2 (match demands and fill
+# up buffers. If you change the "max_cap" column, then you can specify an upper limit for what to be produced. Say
+# you want to buff up on Mass6 and don't wanna mess making any more Mass3 than required, then what you can do
+# is drop the Mass3 max_cap from 75000 to only 30000, this way, when the current volume of Mass3 reaches 30000
+# or slightly below that, the plan will not generate any new batches for it.
+#
+#name	type	max_cap	tRef1	tRef2	tRef3	tConch1	tConch2	tConch3
+#
+Mass1	0	25000	120	180	270	480	420	540
+Mass2	1	40000	120	180	270	720	510	900
+Mass3	2	75000	120	180	270	720	510	900
+Mass4	3	20000	120	180	270	720	510	900
+Mass5	4	75000	120	180	270	1080	510	1200
+Mass6	5	15000	120	180	270	720	510	900
+Mass7	6	30000	120	180	270	720	510	900
+Mass8	7	15000	120	180	270	1080	510	1200

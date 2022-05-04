@@ -1,0 +1,23 @@
+#
+# The '#' symbol indicates a comment. These lines will not be read into memory.
+#
+# This file should contain the starting amounts of each mass and the demands in each shift.
+# The rows are sorted from top to bottom in the following order as in the "masses_cfg.txt".
+# You can use custom sorting, but be sure to reflect these changes also in the "masses_cfg.txt".
+#
+# The first row indicates the starting amount.
+# Every next row indicates the demand of the given mass in each consecutive shift.
+# There must be the same number of rows as the number of masses defined.
+#
+# Just copy and paste the data from the Excel file and all should be fine.
+#
+# V0	1_1	1_2	1_3	2_1	2_2	2_3	3_1	3_2	3_3	4_1	4_2	4_3	5_1	5_2	5_3	6_1	6_2	6_3	7_1	7_2	7_3
+#
+20432	5610	7446	0	5688	5688	0	5353	4233	0	0	0	0	0	0	0	0	0	0	0	0	0
+22300	0	0	0	10050	10050	8040	10050	6975	7558	6955	3296	0	0	0	0	0	0	0	0	0	0
+51994	2634	5798	4746	5798	4122	2448	0	0	0	0	2020	10613	12738	12498	9619	3988	0	0	0	0	0
+8813	0	0	0	0	1638	2140	5350	5885	5885	5404	3745	0	0	0	0	0	0	0	0	0	0
+36700	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+7958	295	1202	975	907	1202	975	635	1202	975	907	1202	975	907	1202	748	907	1204	959	1119	1119	654
+27500	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5025	4020	0	0	0	0
+3400	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3518	7538	0	0	0
